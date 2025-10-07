@@ -1,0 +1,102 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Căn giữa ô tìm kiếm trong toàn header */
+.logo {
+  flex: 1;
+}
+
+.search-box {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo a {
+  color: #e50914;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #e50914;
+}
+
+.login-btn {
+  background-color: #e50914;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #b00610;
+}
+
+/* Ô tìm kiếm */
+.search-box form,
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #141414;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid #333;
+  max-width: 320px;
+  width: 100%;
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.search-box input::placeholder {
+  color: #aaa;
+}
+
+.search-box button {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #b00610;
+}
