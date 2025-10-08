@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Cột 1: Logo + mô tả */}
         <div className="footer-section">
           <h2 className="footer-logo">🎬 MovieZone</h2>
           <p>
@@ -15,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Cột 2: Liên kết */}
         <div className="footer-section">
           <h3>Liên kết</h3>
           <ul>
@@ -34,7 +32,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Cột 3: Mạng xã hội */}
         <div className="footer-section">
           <h3>Theo dõi chúng tôi</h3>
           <div className="social-links">
