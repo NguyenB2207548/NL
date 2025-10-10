@@ -11,6 +11,7 @@ import movieRoute from "./routes/moviesRouters.js";
 app.use(express.json());
 app.use(cors());
 dotenv.config({ quiet: true });
+app.use("/api/public", express.static("public"));
 
 const PORT = process.env.PORT || 5000;
 

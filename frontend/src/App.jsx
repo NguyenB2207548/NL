@@ -6,6 +6,7 @@ import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import MoviePlayer from "./pages/MoviePlayer";
 import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
